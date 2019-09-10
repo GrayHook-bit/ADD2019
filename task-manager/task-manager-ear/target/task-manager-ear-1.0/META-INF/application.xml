@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/application_7.xsd" version="7">
+  <display-name>task-manager-ear</display-name>
+  <module>
+    <web>
+      <web-uri>cz.cvut.fel.czm.add-task-manager-web-1.0.war</web-uri>
+      <context-root>/task-manager</context-root>
+    </web>
+  </module>
+  <module>
+    <ejb>cz.cvut.fel.czm.add-task-manager-ejb-1.0.jar</ejb>
+  </module>
+</application>
